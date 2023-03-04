@@ -1,0 +1,196 @@
+html, body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.container {
+    width: 794px;
+    margin: 2vh auto;
+
+    border: 1px solid black;
+}
+
+.containerUser {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 1px solid black;
+    height: max-content;
+   
+}
+
+.containerUser > div.judulUser {
+    width: 30%;
+    padding: 1vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.containerUser > div.jawabanUser {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-left: .2vw;
+    border-left: 2px solid black;
+    justify-content: center;
+}
+
+
+.containerUser > .penilaian > b {
+    font-size: 1.1em;
+    margin: 1vh 0;
+}
+
+.containerUser > .penilaian > div.satu > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1vw;
+    font-size: .9em;
+
+}
+
+.containerUser > .penilaian > div.satu > div > p:first-child {
+    width: 80%;
+}
+
+
+
+.containerUser > .penilaian > div.dua {
+    display: flex;
+}
+
+.containerUser > .penilaian > div.dua > p:first-child {
+    width: 80%;
+}
+
+
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.a-center {
+    align-items: center;
+}
+
+
+.containerUser > .table  {
+    font-size: .9em;
+}
+
+.containerUser > .table > table {
+    width: 90%;
+    margin: 2vh 0;
+}
+
+tr {
+    border: 1px solid black;
+}
+td {   
+    padding: 1vh .3vw;
+}
+
+
+.kepada {
+    font-size: .9em;
+}
+.mp-0 {
+    margin: 0 !important;
+    padding: 5px 0;
+}
+
+.ml-1 {
+    margin-left: .3vw;
+}
+
+
+.diagnosis {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diagnosis > div {
+    width: 33%;
+    margin-top: 3px;
+}
+
+
+
+.b-bottom {
+    border-bottom: 1px solid black;
+}
+
+
+.containerUser > .perencanaan > div {
+    display: flex;
+    padding: 0 1vw;
+    margin: 0;
+    width: 100%;
+    font-size: .9em;
+    height: 30px;
+    align-items: center;
+}
+
+.containerUser > .perencanaan > div > p:first-child {
+    width: 75%;
+}
+
+
+.text {
+    width: 100% !important;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0 !important;
+    padding: 0!important;
+}
+
+
+.containerUser > .perencanaan > div > p {
+    margin-right: .4vw;
+} 
+
+
+
+.penutup {
+    display: flex;
+    width: 100%;
+}
+
+.border-l {
+    border-left: 1px solid black;
+}
+
+.border-r {
+    border-right: 1px solid black;
+}
+
+.penutup > div {
+    font-size: .85em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.penutup > div > p:first-child {
+    width: 100%;
+    text-align: center;
+}
+
+.penutup > div > .jawaban {
+    height: 200px;
+    border-bottom: 1px solid black;
+}
+
+.penutup > div > .footer {
+    margin-left: 1vw;
+    line-height: 2em;
+    padding-bottom: 3vh;
+}

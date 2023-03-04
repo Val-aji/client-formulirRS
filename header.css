@@ -1,0 +1,102 @@
+/* 210mm x  297mm (Standar A4) */
+/* 1mm = 3,78 
+794px x 1122px (96 PPI)*/
+
+/* 72 PPI */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial;
+}
+.container {
+    /* width: 595px;
+    height: 842px; */
+    /* width: 794px; */
+    /* height: 1122px; */
+     width: 1300px;
+    /* height: 2339px; */ 
+    margin: 5vh auto;
+    border: 1px solid black;
+}
+
+
+.container > .header {
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.container > .header > .identitasRS {
+    width: 45%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+
+.container > .header > .identitasRS > img {
+    height: 60px;
+    width: 20%;
+}
+
+.container > .header > .identitasRS > .identitas {
+    width: 75%;
+    font-size: .78em;
+    letter-spacing: .1px;
+    text-align: center;
+}
+
+
+/* identitasa pasien */
+.container > .header > .identitasPasien {
+    width: 45%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding-left: 1vw;
+}
+
+
+.container > .header > .identitasPasien > .inputUser {
+    width: 100%;
+    height: 20px;
+    display: flex;
+}
+
+.container > .header > .identitasPasien > .inputUser > .judul {
+    width: 40%;
+}
+
+
+/* nomor kertas  */
+.container > .header > .nomorKertas {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    padding: 0 !important;
+    height: 100px;
+    margin: 0 !important;
+    border: 1px solid black;
+}
+
+.container > .header > .nomorKertas > p {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+}
+.container > .header > .nomorKertas > .RM {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+

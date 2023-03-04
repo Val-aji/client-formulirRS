@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSESMEN AWAL KEPERAWATAN RAWAT INAP</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="identitasRS">
+                <img src="Lambang_Kabupaten_Bulukumba.svg.png" />
+                <div class="identitas">
+                    <b class="namaTempat">RSUD H. ANDI SULTHAN DAENG RADJA</b>
+                    <p class="namaJalan">JL. SERIKAYA NO. 17 BULUKUMBA 92512</p>
+                    <p class="nomor"> TELP : (0413) 81292</p>
+                </div>
+            </div>
+            <div class="identitasPasien">
+                <div class="inputUser">
+                    <p class="judul">NO. RM</p>
+                    <p class="jawaban"></p>
+                </div>
+                <div class="inputUser">
+                    <p class="judul">Nama Lengkap </p>
+                    <p class="jawaban"></p>
+                </div>
+                <div class="inputUser">
+                    <p class="judul">Tanggal Lahir</p>
+                    <p class="jawaban"></p>
+                </div>
+                <div class="inputUser">
+                    <p class="judul">NIK</p>
+                    <p class="jawaban"></p>
+                </div>
+
+            </div>
+            <div class="nomorKertas">
+                <p class="RM">RM</p>
+                <p class="nomor">10</p>
+            </div>
+        </div>
+
+        <div class="judulDokumen">
+            <h1 class="judulDokumen">ASSESMEN AWAL KEPERAWATAN INAP</h1>
+            <p>(dilengkapi dalam 24 jam pertama pasien masuk ruang rawat inap)</p>
+        </div>
+        
+        <div class="dataPasien">
+            <p class="judul">Dilakukan pada pasien baru, kasus baru, pada kasus akut diulang setelah …… bulan untuk kasus yang sama, untuk kasus kronik diulang setelah ……. bulan</p>
+            <div class="containerData tanggalMasuk">
+                <div>
+                    <p class="judul">Tanggal Masuk Rawat Inap</p>
+                    <p class="jawaban"></p>
+                </div>
+                <div class="jam">
+                    <p class="judul">Pukul:</p>
+                    <p class="jawaban"></p>
+                    <p class="lainnya">WITA</p>
+                </div>
+                
+            </div>
+
+            <div class="containerData dirawat">
+                <p class="judulDirawat">Pernah dirawat di RSUD ? </p>
+                <div class="jawabanDirawat">
+                    <div>
+                        <input type="checkbox" name="tidakDirawat" id="tidakDirawat" />
+                        <label for="tidakDirawat">Tidak</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="pernahDirawat" id="pernahDirawat" />
+                        <label for="pernahDirawat">Ya, Diagnosa</label>
+                        <span>............</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerUser ">
+                <div class="judulAsalMasuk judulUser">Asal Masuk </div>
+                <div class="jawabanUser asalMasuk">
+                    <p class="">
+                      <input type="checkbox" />
+                      UGD
+                    </p>
+                    <p class="">
+                      <input type="checkbox" />
+                      Poli: ......................
+                    </p>
+                </div>
+            </div>
+
+            <div class="containerUser ">
+              <div class="judulUser">Keluhan </div>
+              <div class="jawabanUser keluhan">
+                  <p>
+                    
+                  </p>
+              </div>
+          </div>
+
+            <div class="containerUser statusFisik">
+                <div class="judulUser">Status Fisik</div>
+                <div class="jawabanUser">
+                    <div class="first pilihanUser">
+                        <p class="TD">TD: <span>...........</span>
+                            mmhg
+                        </p>
+                        <p class="nadi">
+                            Nadi
+                            <span>..........</span>
+                            x/mnt
+                        </p>
+                        <p class="suhu">
+                            Suhu
+                            <span>..........</span>
+                            C
+                        </p>
+                        <p class="nafas">
+                            Nadi
+                            <span>..........</span>
+                            x/mnt
+                        </p>
+                    </div>
+
+                    <div class="keadaanUmum pilihanUser">
+                        <p>Keadaan Umum: 
+                            <span>..........</span>
+                        </p>
+                        <p>Berat Badan: 
+                            <span>..........</span>
+                            kg
+                        </p>
+                        <p>Tinggi/Panjang Badan: 
+                            <span>.........</span>
+                            cm
+                        </p>
+                    </div>
+
+                    <div class="kesadaran pilihanUser">
+                        <p class="judulPilihan">
+                            Kesadaran: 
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            CM
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Apatis
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Somolen
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Sopor
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Koma
+                        </p>
+                    </div>
+
+                    <div class="pilihanUser kepala">
+                        <p class="judulPilihan">Kepala : </p>
+                        <p>
+                            <input type="checkbox" />
+                            Normal
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Bonjolan
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Luka
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            ........
+                        </p>
+                    </div>
+
+                    <div class="pilihanUser mata">
+                        <p class="judulPilihan">Mata : </p>
+                        <p>
+                            <input type="checkbox" />
+                            Normal
+                        </p>
+                        <p>
+                            pupil: 
+                            <input type="checkbox" />
+                            Isokor
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Anisokor
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            ...................
+                        </p>
+                    </div>
+
+                    <div class="pilihanUser tht">
+                        <p class="judulPilihan">THT : </p>
+                        <p>
+                            <input type="checkbox" />
+                            Normal
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Luka
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Sumbatan
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            ...................
+                        </p>
+                    </div>
+                    
+                    <div class="pilihanUser mulut">
+                        <p class="judulPilihan">Mulut : </p>
+                        <p>
+                            <input type="checkbox" />
+                            Normal
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Luka
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Benjolan
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            ...................
+                        </p>
+                    </div>  
+
+                    <div class="pilihanUser leher">
+                        <p class="judulPilihan">Leher : </p>
+                        <p>
+                            <input type="checkbox" />
+                            Normal
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Luka
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Benjolan
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            ...................
+                        </p>
+                    </div>
+
+                    <div class="pilihanUser thorax">
+                        <p class="judulPilihan">Thorax : </p>
+                        <p>
+                            <input type="checkbox" />
+                            Normal
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Luka
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Benjolan
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            ...................
+                        </p>
+                    </div> 
+                    
+                    <div class="pilihanUser Abdomen">
+                        <p class="judulPilihan">Abdomen : </p>
+                        <p>
+                            <input type="checkbox" />
+                            Normal
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Asistes
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Tegang
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            ...................
+                        </p>
+                    </div>
+                    
+                    <div class="pilihanUser Urogenital">
+                        <p 
+                        class="judulPilihan">Urogenital : </p>
+                        <p>
+                            <input type="checkbox" />
+                            Normal
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Tidak Normal
+                        </p>
+                        
+                        <p>
+                            <input type="checkbox" />
+                            ...................
+                        </p>
+                    </div>
+
+                    <div class="pilihanUser Ekstermitas fs95">
+
+                        <p 
+                        class="judulPilihan">Ekstermitas : </p>
+                        <p>
+                            <input type="checkbox" />
+                            Normal
+                        </p>
+                        <p>
+                            Atas
+                            <input type="checkbox" />
+                            Kuat
+                        </p>
+
+                        <p>
+                            <input type="checkbox" />
+                            Lemah
+                        </p>
+
+                        <p>
+                            Bawah
+                            <input type="checkbox" />
+                            Kuat
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Lemah
+                        </p>
+
+                    </div>
+
+                    <div class="pilihanUser Kulit fs95">
+
+                        <p 
+                        class="judulPilihan">Kulit : </p>
+                        <p>
+                            <input type="checkbox" />
+                            Normal
+                        </p>
+                        <p>
+                            Turgor
+                            <input type="checkbox" />
+                            Baik
+                        </p>
+
+                        <p>
+                            <input type="checkbox" />
+                            Dehidrasi
+                        </p>
+
+                        <p>
+                            Luka
+                            <input type="checkbox" />
+                            Ya
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Tidak
+                        </p>
+
+                    </div>
+
+                    <div class="pilihanUser Jantung fs7">
+
+                        <p 
+                        class="judulPilihan">Jantung : </p>
+                        <p>
+                            <input type="checkbox" />
+                            Normal
+                        </p>
+                        <p>
+                            Nyeri Dada
+                            <input type="checkbox" />
+                            Ya
+                        </p>
+
+                        <p>
+                            <input type="checkbox" />
+                            Tidak
+                        </p>
+
+                        <p>
+                            Bunyi Jantung
+                            <input type="checkbox" />
+                            Mumur
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Garlop
+                        </p>
+
+                    </div>
+
+                    
+
+                </div>
+            </div>
+
+            <div class="containerUser">
+                <div class="judulUser">Bio-Psiko-Sosio-Spiritual
+                </div>
+                <div class="jawabanUser">
+                  <div>
+                     <div class="bio-psiko bio">
+                        <p>
+                          <input type="checkbox" />
+                          Rumah Sendiri
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Rumah Orang Tua
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Kontrak
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Kos
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Lainnya............
+                        </p>
+                      </div>
+                     <div class="bio-psiko psi">
+                        <p>
+                          <input type="checkbox" />
+                          Tenang
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Cemas
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Marah
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Lainnya............
+                        </p>
+                      </div>
+                      <div class="bio-psiko kawin">
+                        <p class="judulBio">Status Perkawinan : </p>
+                        <p>
+                          <input type="checkbox" />
+                          Kawin
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Belum Kawin
+                        </p>
+                        
+                      </div>
+                      <div class="bio-psiko keyakinan">
+                        <p class="judulBio">Nilai dan keyakinan yang mempengaruhi kesehatan</p>
+                        <p>
+                          <input type="checkbox" />
+                          Tidak ada
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Ada
+                        </p>
+                        <p>
+                          : ....................
+                        </p>
+                      </div>
+                      <div class="bio-psiko agama">
+                        <p class="judulBio">Agama : </p>
+                        <p>
+                          <input type="checkbox" />
+                          Islam
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Kristen Katolik
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Kristen Protestan
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Hindu
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Budha
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Konghucu
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Kepercayaan terhadap Tuhan Yang Maha Esa
+                        </p>
+                      </div>
+                      <div class="bio-psiko rajinI badah">
+                        <p class="judulBio">Menjalankan Ibadah : </p>
+                        <p>
+                          <input type="checkbox" />
+                          Rajin
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Ada Hambatan 
+                        </p>
+                        <p>
+                          : ....................
+                        </p>
+                      </div>
+                   </div>
+                   
+                </div>
+              </div>
+
+              <div class="containerUser">
+                <div class="judulUser">
+                  Ekonomi
+                </div>
+
+                <div class="jawabanUser">
+                    <div class="jawabanEkonomi">
+                        <p>
+                            <input type="checkbox" />
+                            PNS
+                        </p>
+                         <p>
+                            <input type="checkbox" />
+                            Pegawai Biasa
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            TNI/POLRI
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Wiraswasta 
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Petani/Nelayan
+                        </p>
+                        <p>
+                            <input type="checkbox" />
+                            Lain-lain .................
+                        </p>
+                    </div>
+                </div>
+              </div>
+
+              <div class="containerUser">
+                <div class="judulUser">
+                  Riwayat Kesehatan Pasien
+                </div>
+
+                <div class="jawabanUser riwayatKesehatan">
+                  <p class="sebelum">
+                    Riwayat Penyakit Sebelumnya: 
+                   </p>
+                   <p class="sekarang">
+                    Riwayat Penyakit Sekarang: 
+                   </p>
+                </div>
+                
+              </div>
+              <div class="containerUser">
+                <div class="judulUser">
+                  Riwayat Alergi
+                </div>
+                <div class="jawabanUser riwayatAlergiDanObat">
+                  <p>
+                    <input type="checkbox" />
+                    Tidak
+                   </p>
+                   <p class="sekarang">
+                    <input type="checkbox" />
+                    Ya sebutkan .........................................................
+                   </p>
+                </div>
+                
+              </div>
+              <div class="containerUser">
+                <div class="judulUser">
+                  Riwayat Penggunaan Obat
+                </div>
+                <div class="jawabanUser riwayatAlergiDanObat">
+                  <p>
+                    <input type="checkbox" />
+                    Tidak
+                   </p>
+                   <p class="sekarang">
+                    <input type="checkbox" />
+                    Ya sebutkan .........................................................
+                   </p>
+                </div>
+                
+              </div>
+              <div class="containerUser">
+                <div class="judulUser">
+                  Riwayat Imunisasi
+                </div>
+                <div class="jawabanUser">
+                    <div class="riwayatImunisasi">
+                        <p>
+                            <input type="checkbox" />
+                            BCG
+                           </p>
+                           <p class="">
+                            <input type="checkbox" />
+                            polio .......... kali
+                           </p>
+                           <p class="">
+                            <input type="checkbox" />
+                            Hepatitis B .......... kali
+                           </p>
+                           <p class="">
+                            <input type="checkbox" />
+                            DPT .......... kali
+                           </p>
+                           <p class="">
+                            <input type="checkbox" />
+                            Campak .......... kali
+                           </p>
+                           <p class="">
+                            <input type="checkbox" />
+                            Lainnya .......................................................................
+                           </p>
+                        </div>
+                    </div>
+                  
+                
+              </div>
+              <div class="containerUser riwayatPersalinan">
+                <div class="judulUser">
+                  Riwayat Persalinan <br />
+                  (Khusus Ibu Hamil )
+                </div>
+                <div class="jawabanUser">
+                  <div class="persalinan">
+                     <div class="">
+                        <p class="">
+                          G: ..........................
+                        </p>
+                        <p>
+                          P: ..........................
+                        </p>
+                        <p>
+                          A: ..........................
+                        </p>
+                      </div>
+                     <div>
+                        <p class="judulSalin">
+                          Persalinan : 
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Spontan
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Vacum
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Forceps
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          SP
+                        </p>
+                      </div>
+                      <div>
+                        <p class="judulSalin">Ditolong oleh : </p>
+                        <p>
+                          <input type="checkbox" />
+                          Dokter
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Bidan
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          Lainnya ..............
+                        </p>
+                      </div>
+                      <div >
+                      
+                        <p>
+                          Berat Badan ................... Gram
+                        </p>
+                        <p>
+                          Panjang Badan .................. cm
+                        </p>
+                      </div>
+                      <div class="bio-psiko agama">
+                        <p class="judulSalin">Keadaan saat lahir: </p>
+                        <p>
+                          <input type="checkbox" />
+                          Segera Menangis
+                        </p>
+                        <p>
+                          <input type="checkbox" />
+                          tidak segera menangis
+                        </p>
+                      </div>
+                   </div>
+                </div>
+                
+              </div>
+              <div class="containerUser ">
+                <div class="judulUser">
+                  Riwayat Operasi
+                </div>
+                <div class="jawabanUser riwayatOperasi">
+                  <p>
+                    <input type="checkbox" />
+                    Tidak
+                   </p>
+                   <p class="">
+                    <input type="checkbox" />
+                    Ya, Jenisnya : ............................
+                   </p>
+                   <p class="">
+                    <input type="checkbox" />
+                    Kapan :  ............................
+                   </p>
+                </div>
+                
+              </div>
+              <div class="containerUser ">
+                <div class="judulUser">
+                  Riwayat Transfursi
+                </div>
+                <div class="jawabanUser riwayatTransfursi">
+                  <p>
+                    <input type="checkbox" />
+                    Tidak
+                   </p>
+                   <p class="">
+                    <input type="checkbox" />
+                    Ya, berapa kali : ............................
+                   </p>
+                   <p class="">
+                    <input type="checkbox" />
+                    Golongan darah :  ............................
+                   </p>
+                   <p class="">
+                     Reaksi Transfursi
+                     <input type="checkbox" />
+                     tidak
+                    <input type="checkbox" />
+                     Ya reaksi yang timbul : .....................................
+        
+                   </p>
+                </div>
+                
+              </div>
+              <div class="containerUser ">
+                <div class="judulUser">
+                  Asesmen Nyeri
+                </div>
+                <div class="jawabanUser asesmen">
+                  <p>
+                    <input type="checkbox" />
+                    Tidak Nyeri
+                   </p>
+                   <p class="">
+                    <input type="checkbox" />
+                    Nyeri, Lanjut ke RM 36 ............................
+                   </p>
+                </div>
+                
+              </div>
+        </div>
+
+    </div>
+</body>
+</html>

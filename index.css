@@ -1,0 +1,236 @@
+.judulDokumen {
+    width: 100%;
+    border: 1px solid black;
+    padding: 1px 0 1vh;
+}
+
+.judulDokumen > h1 {
+    font-size: 1.7em;
+    border: none;
+    width: max-content;
+    margin: 1vh auto;
+}
+
+.judulDokumen > p {
+    font-size: .9em;
+    margin: auto;
+    width: max-content;
+}
+
+
+.dataPasien {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.dataPasien > p.judul {
+    width: 100%;
+    font-size: .74em;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    align-items: center;
+    margin: 0;
+}
+
+.container > .dataPasien> .containerData {
+    border: 1px solid black;
+    display: flex;
+    padding: 0 2vw;
+    height: 25px;
+    align-items: center;
+}
+
+.container > .dataPasien> .tanggalMasuk > div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.jam > p {
+    width: 20%;
+}
+
+
+.containerData.dirawat  > .jawabanDirawat {
+    display: flex;
+    margin-left: 3vw;
+}
+
+.containerData.dirawat  > .jawabanDirawat > div {
+    margin: 0 2vw;
+}
+
+
+
+.containerUser {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 1px solid black;
+    height: max-content;
+    
+}
+
+.containerUser > div.judulUser {
+    width: 30%;
+    padding: 1vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.containerUser > div.jawabanUser {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    
+    border-left: 2px solid black;
+}
+
+.containerUser > .keluhan {
+    height: 60px;
+}
+.containerUser > .asalMasuk  {
+    flex-direction: row !important;
+    align-items: center;
+    height: 30px;
+}
+
+.containerUser > .asalMasuk > p {
+    margin-right: 2vw;
+}
+.containerUser > div.jawabanUser > .pilihanUser {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    width: 99%;
+    height: 30px;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.containerUser > div.jawabanUser > .pilihanUser > p {
+    margin-right: 1vw;
+    font-size: .9em;
+}
+
+.containerUser > div.jawabanUser > .pilihanUser > p:last-child {
+    padding: 3%;
+}
+
+.containerUser > div.jawabanUser > .pilihanUser > p.judulPilihan {
+    width: 15%;
+    
+}
+
+
+.fs95{
+    font-size: .96em;
+}
+
+.fs7 {
+    font-size: .7em;
+}
+
+
+.containerUser > div.jawabanUser > div > .bio-psiko  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 5px;
+    border: 1px solid black;
+    font-size: .95em;
+    align-items: center;
+
+}
+
+
+.containerUser > .jawabanUser > .jawabanEkonomi {
+    display: flex;
+    font-size: .7em;
+    justify-content: space-between;
+}
+
+.containerUser > .jawabanUser > .jawabanEkonomi > p {
+    display: flex;
+    align-items: center;
+}
+
+.containerUser > .riwayatKesehatan {
+    height: 100px;
+    flex-direction: column;
+}
+.containerUser > .riwayatKesehatan > p {
+    height: 50px;
+    padding: 5px .5vw;
+    font-size: .9em;
+    margin: 0;
+}
+
+.containerUser > .riwayatKesehatan > p:first-child {
+    border-bottom: 1px solid black;
+}
+
+
+
+.containerUser > .riwayatAlergiDanObat {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.containerUser > .riwayatAlergiDanObat > p:first-child {
+    margin-right: 3vw;
+}
+
+
+.containerUser > .jawabanUser > .riwayatImunisasi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 1vw;
+}
+
+.containerUser > .jawabanUser > .persalinan > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0  1vw;
+}
+
+.containerUser > .jawabanUser > .persalinan > div > .judulSalin {
+    width: 20%;
+}
+
+.containerUser > .jawabanUser > .persalinan > div.agama {
+    border: none;
+    font-size: .85em;
+    padding: 0 1vw;
+    justify-content: space-between;
+}
+.containerUser > .riwayatOperasi {
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+
+.containerUser > .riwayatTransfursi {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.containerUser > .riwayatTransfursi > p {
+    padding: 0 1px;
+}
+
+.containerUser > .asesmen {
+    flex-direction: row !important;
+}
+
+.containerUser > .asesmen > p {
+    margin-right: 2vw;
+}
+
+
